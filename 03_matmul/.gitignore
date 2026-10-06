@@ -1,0 +1,6 @@
+matmul_O0
+matmul_O2
+matmul_O3
+matmul_omp
+matmul_O3.s
+*.dSYM/
