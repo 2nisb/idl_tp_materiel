@@ -61,9 +61,9 @@ qui doit être la même pour toutes les variantes.
    la boucle interne (`make asm`, ou sur <https://godbolt.org>) et cherchez
    les instructions SIMD (`vfmadd` et registres `ymm` sur x86-64, `fmla` et
    registres `v` sur AArch64). Combien de `double` par instruction?
-5. Sur x86-64 Linux, ajoutez `-march=native` (`make CFLAGS_O3="-O3
+5. Sur x86-64, ajoutez `-march=native` (`make CFLAGS_O3="-O3
    -march=native"`): le compilateur peut alors utiliser AVX2 ou AVX-512.
-   Quel gain?
+   Sur Apple Silicon, l'option s'appelle `-mcpu=native`. Quel gain?
 
 ## 4. Plusieurs cœurs
 

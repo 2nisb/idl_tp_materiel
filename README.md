@@ -14,5 +14,6 @@ puissance crête de votre machine que votre code utilise réellement.
 
 Le TP [STM32](stm32.md) sur carte Nucleo vient plus tard dans l'année.
 
-Prérequis: `gcc` ou `clang`, `make`, Python 3 avec `numpy` et `matplotlib`
-(`pip install numpy matplotlib`).
+Prérequis: un compilateur C, `make`, Python 3 avec `numpy` et
+`matplotlib`. Voir [INSTALL.md](INSTALL.md) pour macOS, Linux et Windows
+avec WSL2.
