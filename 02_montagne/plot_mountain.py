@@ -31,7 +31,8 @@ ax.set_ylabel("taille")
 ax.set_zlabel("débit de lecture (Go/s)")
 ax.set_xticks(np.log2(strides)); ax.set_xticklabels(strides)
 ax.set_yticks(np.log2(sizes)[::2]); ax.set_yticklabels([ko(s) for s in sizes[::2]])
-ax.view_init(elev=25, azim=-135)
+ax.invert_yaxis()                   # petites tailles au fond: le sommet (L1) est derrière,
+ax.view_init(elev=25, azim=-45)     # la pente descend vers le lecteur, comme dans le livre
 plt.title("Montagne mémoire")
 plt.tight_layout()
 plt.savefig("mountain_3d.png", dpi=120)
