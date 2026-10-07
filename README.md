@@ -1,5 +1,9 @@
 # Travaux pratiques du chapitre 2: matériel
 
+Dépôt des TP du chapitre "matériel" du cours *Introduction au développement
+logiciel* (Mines Paris, PSL). Les transparents sont sur
+[la page du cours](https://www.cri.minesparis.psl.eu/people/silber/cours/2026/idl/).
+
 Trois TP qui s'enchaînent, sur votre propre machine (Linux, macOS, ou
 Windows avec WSL2). Ils réutilisent la même façon de chronométrer et
 aboutissent au chiffre qui a motivé le cours: le pourcentage de la
